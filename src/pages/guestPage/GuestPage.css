@@ -1,0 +1,12 @@
+.guest-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 50px;
+}
+
+.guest-input {
+    padding: 10px 30px;
+}
