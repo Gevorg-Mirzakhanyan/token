@@ -1,4 +1,4 @@
-import {  NavLink, Route, Routes, useNavigate} from "react-router-dom";
+import {  NavLink, Route, Routes } from "react-router-dom";
 import Dashboard from "./components/Dasboard";
 import Users from "./components/Users";
 import Products from "./components/Products";
@@ -7,10 +7,8 @@ import Settings from "./components/Settings";
 import { routerLinks } from "./router/router";
 
 function AuthPage() {
-    const navigate = useNavigate();
     const handleLogOut = () => {
         localStorage.removeItem('loginData');
-        navigate('');
         window.location.reload();
       };
 
